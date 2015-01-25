@@ -15,7 +15,7 @@ public class DayEndBehaviour : MonoBehaviour {
     public void EndDay() {
         animator.SetTrigger("Animate outro");
         if (lastDay) {
-            lastMusic.Volume = 1f;
+            lastMusic.volume = 1f;
         }
     }
 
