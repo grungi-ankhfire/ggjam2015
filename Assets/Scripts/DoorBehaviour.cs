@@ -31,11 +31,10 @@ public class DoorBehaviour : MonoBehaviour {
 			if (Box.enabled == true)
 			{
 				CanBeUnlocked = false;
-				Debug.Log (Unlocked);
 			}
 		}
 		if (CanBeUnlocked && Unlocked == false) {
-			Deverouiller.Play ();
+			Deverouiller.PlayDelayed (5.5f);
 			Unlocked = true;
 		}
 	}
@@ -49,7 +48,7 @@ public class DoorBehaviour : MonoBehaviour {
 				Ouvrir.Play ();
 				if(roomTo != null)
 				{
-					Fermer.PlayDelayed(2.5f);
+					Fermer.PlayDelayed(1.5f);
 	            	keyboardManager.transitionTimer = 2f;
 	            	roomFrom.Slide(slideDirection+2);
 	            	roomTo.Slide(slideDirection);
