@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: '...'
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 429727712}
@@ -759,7 +759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 2...
+  interactionMessage: '...'
   interactionText: {fileID: 56993033}
   toActivate: []
   toDeactivate:
@@ -841,6 +841,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 0}
   slideDirection: 0
   keyboardManager: {fileID: 1113555238}
+  makeShadowActive: 0
 --- !u!82 &451124828
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1257,6 +1258,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 516639646}
   slideDirection: 1
   keyboardManager: {fileID: 0}
+  makeShadowActive: 0
 --- !u!1 &518936570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,6 +1525,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 638204453}
   slideDirection: 0
   keyboardManager: {fileID: 1113555238}
+  makeShadowActive: 0
 --- !u!82 &638204451
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2967,7 +2970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: No more blood.
   interactionText: {fileID: 56993033}
   toActivate: []
   toDeactivate:
@@ -3400,6 +3403,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 0}
   slideDirection: 1
   keyboardManager: {fileID: 1113555238}
+  makeShadowActive: 0
 --- !u!82 &936897795
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3737,6 +3741,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 0}
   slideDirection: 1
   keyboardManager: {fileID: 1113555238}
+  makeShadowActive: 0
 --- !u!82 &1048492639
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4047,7 +4052,9 @@ MonoBehaviour:
   canMove: 1
   character: {fileID: 649642864}
   movementSpeed: 5
+  shadow: {fileID: 0}
   transitionTimer: 0
+  shadowActive: 0
 --- !u!95 &1113555239
 Animator:
   serializedVersion: 3
@@ -4306,7 +4313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 2...
+  interactionMessage: I should not have done that.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1224546144}
@@ -4537,6 +4544,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 1486595572}
   slideDirection: 1
   keyboardManager: {fileID: 1113555238}
+  makeShadowActive: 0
 --- !u!82 &1486595569
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4812,7 +4820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: At least, some light.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1099426043}
@@ -5285,6 +5293,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 1689726742}
   slideDirection: 0
   keyboardManager: {fileID: 1113555238}
+  makeShadowActive: 0
 --- !u!82 &1689726739
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5871,7 +5880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: What I have done.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1864282808}
