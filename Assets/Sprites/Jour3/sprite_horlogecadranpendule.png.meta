@@ -1,7 +1,57 @@
 fileFormatVersion: 2
 guid: 6893ef3bbfcb0404f8a4478af47e868b
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: sprite_horlogecadranpendule_0
+    21300002: sprite_horlogecadranpendule_1
+    21300004: sprite_horlogecadranpendule_2
+    21300006: sprite_horlogecadranpendule_3
+    21300008: sprite_horlogecadranpendule_4
+    21300010: sprite_horlogecadranpendule_5
+    21300012: sprite_horlogecadranpendule_6
+    21300014: sprite_horlogecadranpendule_7
+    21300016: sprite_horlogecadranpendule_8
+    21300018: sprite_horlogecadranpendule_9
+    21300020: sprite_horlogecadranpendule_10
+    21300022: sprite_horlogecadranpendule_11
+    21300024: sprite_horlogecadranpendule_12
+    21300026: sprite_horlogecadranpendule_13
+    21300028: sprite_horlogecadranpendule_14
+    21300030: sprite_horlogecadranpendule_15
+    21300032: sprite_horlogecadranpendule_16
+    21300034: sprite_horlogecadranpendule_17
+    21300036: sprite_horlogecadranpendule_18
+    21300038: sprite_horlogecadranpendule_19
+    21300040: sprite_horlogecadranpendule_20
+    21300042: sprite_horlogecadranpendule_21
+    21300044: sprite_horlogecadranpendule_22
+    21300046: sprite_horlogecadranpendule_23
+    21300048: sprite_horlogecadranpendule_24
+    21300050: sprite_horlogecadranpendule_25
+    21300052: sprite_horlogecadranpendule_26
+    21300054: sprite_horlogecadranpendule_27
+    21300056: sprite_horlogecadranpendule_28
+    21300058: sprite_horlogecadranpendule_29
+    21300060: sprite_horlogecadranpendule_30
+    21300062: sprite_horlogecadranpendule_31
+    21300064: sprite_horlogecadranpendule_32
+    21300066: sprite_horlogecadranpendule_33
+    21300068: sprite_horlogecadranpendule_34
+    21300070: sprite_horlogecadranpendule_35
+    21300072: sprite_horlogecadranpendule_36
+    21300074: sprite_horlogecadranpendule_37
+    21300076: sprite_horlogecadranpendule_38
+    21300078: sprite_horlogecadranpendule_39
+    21300080: sprite_horlogecadranpendule_40
+    21300082: sprite_horlogecadranpendule_41
+    21300084: sprite_horlogecadranpendule_42
+    21300086: sprite_horlogecadranpendule_43
+    21300088: sprite_horlogecadranpendule_44
+    21300090: sprite_horlogecadranpendule_45
+    21300092: sprite_horlogecadranpendule_46
+    21300094: sprite_horlogecadranpendule_47
+    21300096: sprite_horlogecadranpendule_48
+    21300098: sprite_horlogecadranpendule_49
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -22,16 +72,16 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +92,506 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: sprite_horlogecadranpendule_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_4
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_5
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_6
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_7
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_8
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_9
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1600
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_13
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_14
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_15
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_16
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_17
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_18
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_19
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1200
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_21
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_22
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_23
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_24
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_25
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_26
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_27
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_28
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_29
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 800
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_31
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_32
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_33
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_34
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_35
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_36
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_37
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_38
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_39
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 400
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_41
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_42
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_43
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_44
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_45
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_46
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_47
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_48
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_horlogecadranpendule_49
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 0
+        width: 194
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

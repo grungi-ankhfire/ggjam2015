@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: 022facc89d7f3ac4c911134870370f9a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite-shadow_0
+    21300002: sprite-shadow_1
+    21300004: sprite-shadow_2
+    21300006: sprite-shadow_3
+    21300008: sprite-shadow_4
+    21300010: sprite-shadow_5
+    21300012: sprite-shadow_6
+    21300014: sprite-shadow_7
+    21300016: sprite-shadow_8
+    21300018: sprite-shadow_9
+    21300020: sprite-shadow_10
+    21300022: sprite-shadow_11
+    21300024: sprite-shadow_12
+    21300026: sprite-shadow_13
+    21300028: sprite-shadow_14
+    21300030: sprite-shadow_15
+    21300032: sprite-shadow_16
+    21300034: sprite-shadow_17
+    21300036: sprite-shadow_18
+    21300038: sprite-shadow_19
+    21300040: sprite-shadow_20
+    21300042: sprite-shadow_21
+    21300044: sprite-shadow_22
+    21300046: sprite-shadow_23
+    21300048: sprite-shadow_24
+    21300050: sprite-shadow_25
+    21300052: sprite-shadow_26
+    21300054: sprite-shadow_27
+    21300056: sprite-shadow_28
+    21300058: sprite-shadow_29
+    21300060: sprite-shadow_30
+    21300062: sprite-shadow_31
+    21300064: sprite-shadow_32
+    21300066: sprite-shadow_33
+    21300068: sprite-shadow_34
+    21300070: sprite-shadow_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sprite-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3231
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3231
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3231
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3231
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3231
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3231
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2585
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2585
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2585
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2585
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2585
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2585
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1939
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1939
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1939
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1939
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_16
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1939
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_17
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1939
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1293
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1293
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1293
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_21
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1293
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1293
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_23
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1293
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 647
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 647
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 647
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 647
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_28
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 647
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_29
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 647
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_33
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_34
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-shadow_35
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

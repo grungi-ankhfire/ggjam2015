@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: PlayerCharacterAnimator 3
+  m_Name: PlayerCharacterAnimator Shadow
   serializedVersion: 2
   m_AnimatorParameters:
   - m_Name: Movement speed
@@ -138,9 +138,9 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: dea01e76140dc6142bed3d2c7b6f60ae, type: 2}
+  - {fileID: 7400000, guid: 2bef0cfb76bdc2642a6987741083893b, type: 2}
   m_ParentStateMachine: {fileID: 110758098}
-  m_Position: {x: 84, y: 108, z: 0}
+  m_Position: {x: 120, y: 48, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -153,9 +153,9 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 2480c548183b5154bac8a80521f6da2c, type: 2}
+  - {fileID: 7400000, guid: a2c993bcc5a0b97419c426d5a35f3152, type: 2}
   m_ParentStateMachine: {fileID: 110758098}
-  m_Position: {x: 108, y: -24, z: 0}
+  m_Position: {x: 120, y: -24, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -168,9 +168,9 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 7adf1449ce199e6449b65e24146634b1, type: 2}
+  - {fileID: 7400000, guid: ad5e14e095c7bdb4eb747e665be72c8c, type: 2}
   m_ParentStateMachine: {fileID: 110758098}
-  m_Position: {x: -156, y: 108, z: 0}
+  m_Position: {x: -192, y: 48, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -183,7 +183,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: b7ffda8717948ec42bf6d057e145f6bb, type: 2}
+  - {fileID: 7400000, guid: a255f10b20b7abc45aa3cea3ab9e4ba6, type: 2}
   m_ParentStateMachine: {fileID: 110758098}
   m_Position: {x: -192, y: -24, z: 0}
   m_IKOnFeet: 0

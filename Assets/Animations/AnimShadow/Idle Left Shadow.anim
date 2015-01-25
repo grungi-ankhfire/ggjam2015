@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Idle Left3
+  m_Name: Idle Left Shadow
   serializedVersion: 4
   m_AnimationType: 2
   m_Compressed: 0
@@ -34,7 +34,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 62f01fd7a43c5e1498affc4079493e47, type: 3}
+      value: {fileID: 21300000, guid: bc488b47ff94a984190a67cbc49a7b49, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -59,7 +59,7 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 62f01fd7a43c5e1498affc4079493e47, type: 3}
+    - {fileID: 21300000, guid: bc488b47ff94a984190a67cbc49a7b49, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0

@@ -13,6 +13,7 @@ public class DoorBehaviour : MonoBehaviour {
 	public AudioSource Deverouiller;
     public int slideDirection;
     public KeyboardManager keyboardManager;
+    public bool makeShadowActive = false;
 
     private bool activable = false;
     private Collider2D player;
@@ -56,7 +57,9 @@ public class DoorBehaviour : MonoBehaviour {
 	            	player.transform.parent = destination.parent;
 	            	player.transform.position = destination.position;
 					player.GetComponent<FootstepBehaviour>().room = roomTo.GetComponent<RoomBehaviour>().name;
-				}
+				    keyboardManager.shadowActive = makeShadowActive;
+                    makeShadowActive = false;
+                }
 				else {
                     Camera.main.GetComponent<DayEndBehaviour>().EndDay();
 			    }

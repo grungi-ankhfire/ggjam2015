@@ -41,6 +41,14 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: Backest
+    userID: 7
+    uniqueID: 24842313
+    locked: 0
+  - name: Shadow
+    userID: 6
+    uniqueID: 471662233
+    locked: 0
   - name: Background
     userID: 1
     uniqueID: 2838835807
