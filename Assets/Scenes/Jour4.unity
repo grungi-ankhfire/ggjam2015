@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: '...'
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 2026971131}
@@ -822,6 +822,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 0}
   slideDirection: 0
   keyboardManager: {fileID: 1033189364}
+  makeShadowActive: 0
 --- !u!82 &451124828
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1244,6 +1245,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 0}
   slideDirection: 0
   keyboardManager: {fileID: 0}
+  makeShadowActive: 0
 --- !u!82 &638204451
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1642,6 +1644,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 0}
   slideDirection: 1
   keyboardManager: {fileID: 0}
+  makeShadowActive: 0
 --- !u!82 &936897795
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1937,7 +1940,9 @@ MonoBehaviour:
   canMove: 1
   character: {fileID: 1381004433}
   movementSpeed: 5
+  shadow: {fileID: 0}
   transitionTimer: 0
+  shadowActive: 0
 --- !u!81 &1033189365
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2072,6 +2077,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 0}
   slideDirection: 1
   keyboardManager: {fileID: 0}
+  makeShadowActive: 0
 --- !u!82 &1048492639
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2307,6 +2313,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 1203049041}
   slideDirection: 1
   keyboardManager: {fileID: 1033189364}
+  makeShadowActive: 0
 --- !u!82 &1203049041
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3776,6 +3783,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 1486595572}
   slideDirection: 1
   keyboardManager: {fileID: 1033189364}
+  makeShadowActive: 0
 --- !u!82 &1486595569
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4559,6 +4567,7 @@ MonoBehaviour:
   Deverouiller: {fileID: 0}
   slideDirection: 0
   keyboardManager: {fileID: 0}
+  makeShadowActive: 0
 --- !u!82 &1689726739
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4978,7 +4987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: Hope the medecine will help me.
   interactionText: {fileID: 56993033}
   toActivate: []
   toDeactivate: []
