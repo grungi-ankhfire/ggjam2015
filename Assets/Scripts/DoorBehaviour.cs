@@ -22,6 +22,7 @@ public class DoorBehaviour : MonoBehaviour {
 		if (ToDo.Length == 0) {
 			Unlocked = true;
 		}
+        keyboardManager = Camera.main.GetComponent<KeyboardManager>();
 	}
 	private void Unlock()
 	{
@@ -55,8 +56,10 @@ public class DoorBehaviour : MonoBehaviour {
 	            	player.transform.parent = destination.parent;
 	            	player.transform.position = destination.position;
 				}
-				else Application.LoadLevel(Application.loadedLevel+1);
-			}
+				else {
+                    Camera.main.GetComponent<DayEndBehaviour>().EndDay();
+			    }
+            }
 			else
 				Verouiller.Play();
         }

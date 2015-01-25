@@ -18,19 +18,19 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: {x: 0, y: 0, z: -10}
-        inSlope: {x: 0, y: -3, z: 0}
-        outSlope: {x: 0, y: -3, z: 0}
-        tangentMode: 97402916
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 101843200
       - time: 1.66666663
         value: {x: 0, y: -10, z: -10}
         inSlope: {x: 0, y: -16.5, z: 0}
         outSlope: {x: 0, y: -16.5, z: 0}
-        tangentMode: 97402916
+        tangentMode: 101843200
       - time: 5
         value: {x: 0, y: -100, z: -10}
         inSlope: {x: 0, y: -26.9999981, z: 0}
         outSlope: {x: 0, y: -26.9999981, z: 0}
-        tangentMode: 97402916
+        tangentMode: 101843200
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: 
@@ -88,14 +88,14 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: 0
-        inSlope: -3
-        outSlope: -3
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
       - time: 1.66666663
         value: -10
         inSlope: -16.5
         outSlope: -16.5
-        tangentMode: 0
+        tangentMode: 10
       - time: 5
         value: -100
         inSlope: -26.9999981
@@ -122,4 +122,11 @@ AnimationClip:
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves: []
-  m_Events: []
+  m_Events:
+  - time: 5
+    functionName: SkipToNextDay
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
