@@ -46,22 +46,21 @@ public class InteractionBehaviour : MonoBehaviour {
     }
 
     void OnTriggerStay2D(Collider2D other) {
-        if (other.gameObject.tag == "Player") {
-            if ((keyboardManager.transitionTimer == 0f) && (Input.GetKeyUp("space") || Input.GetKeyDown("space"))) {
-                Debug.Log("Initializing fading");
-                screenFade.Initialize(this);
-				if(GetComponent<AudioSource>().isPlaying)
-				{
-					GetComponent<AudioSource>().Stop();
+				if (other.gameObject.tag == "Player") {
+						if ((keyboardManager.transitionTimer == 0f) && (Input.GetKeyUp ("space") || Input.GetKeyDown ("space"))) {
+								if (other.gameObject.tag == "Player") {
+										other.gameObject.GetComponent<PlayerCharacterBehaviour> ().DisplayInteractionMark (false);
+										screenFade.Initialize (this);
+										if (GetComponent<AudioSource> ().isPlaying) {
+												GetComponent<AudioSource> ().Stop ();
+										} else {
+												GetComponent<AudioSource> ().PlayDelayed (1f);
+										}
+										interactionText.text = interactionMessage;
+										keyboardManager.transitionTimer = 5f;
+										GetComponent<BoxCollider2D> ().enabled = false;
+								}
+						}
 				}
-				else
-				{
-                	GetComponent<AudioSource>().PlayDelayed(1f);
-				}
-                interactionText.text = interactionMessage;
-                keyboardManager.transitionTimer = 5f;
-				GetComponent<BoxCollider2D>().enabled=false;
-            }
-        }
-    }
+		}
 }

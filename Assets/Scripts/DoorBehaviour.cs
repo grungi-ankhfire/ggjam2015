@@ -55,6 +55,7 @@ public class DoorBehaviour : MonoBehaviour {
 	            	roomTo.Slide(slideDirection);
 	            	player.transform.parent = destination.parent;
 	            	player.transform.position = destination.position;
+					player.GetComponent<FootstepBehaviour>().room = roomTo.GetComponent<RoomBehaviour>().name;
 				}
 				else {
                     Camera.main.GetComponent<DayEndBehaviour>().EndDay();
