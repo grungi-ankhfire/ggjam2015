@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: '...'
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 429727712}
@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 2...
+  interactionMessage: '...'
   interactionText: {fileID: 56993033}
   toActivate: []
   toDeactivate:
@@ -3020,7 +3020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: No more blood.
   interactionText: {fileID: 56993033}
   toActivate: []
   toDeactivate:
@@ -4548,7 +4548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 2...
+  interactionMessage: I should not have done that.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1224546144}
@@ -5055,7 +5055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: At least, some light.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1099426043}
@@ -6165,7 +6165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: What I have done.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1864282808}
