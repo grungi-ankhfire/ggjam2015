@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: Not sur if I would sleep with the light again.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 899489404}
@@ -664,7 +664,7 @@ GameObject:
   - 114: {fileID: 440578053}
   - 82: {fileID: 440578052}
   m_Layer: 0
-  m_Name: Active zone
+  m_Name: TprendreCouteau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -754,7 +754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 2...
+  interactionMessage: It tooks the knife.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1048492635}
@@ -5843,7 +5843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 2...
+  interactionMessage: If only someone had bean there.
   interactionText: {fileID: 56993033}
   toActivate: []
   toDeactivate:
@@ -6876,7 +6876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: If it was not for you.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 148892152}
