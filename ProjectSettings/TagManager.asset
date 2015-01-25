@@ -45,7 +45,19 @@ TagManager:
     userID: 1
     uniqueID: 2838835807
     locked: 0
+  - name: Background front
+    userID: 4
+    uniqueID: 605275327
+    locked: 0
+  - name: Background overlay
+    userID: 5
+    uniqueID: 4094072289
+    locked: 0
   - name: Sprites
     userID: 2
     uniqueID: 147321827
+    locked: 0
+  - name: Overlay
+    userID: 3
+    uniqueID: 2303219451
     locked: 0

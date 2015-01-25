@@ -76,6 +76,21 @@ State:
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
+--- !u!1102 &110293412
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CameraSlideOutro
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: 9fc2920ffab1fac4b8e07f026a7b3328, type: 2}
+  m_ParentStateMachine: {fileID: 110733910}
+  m_Position: {x: -13, y: -7, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
 --- !u!1107 &110733910
 StateMachine:
   serializedVersion: 2
@@ -87,6 +102,7 @@ StateMachine:
   m_States:
   - {fileID: 110253834}
   - {fileID: 110288068}
+  - {fileID: 110293412}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:

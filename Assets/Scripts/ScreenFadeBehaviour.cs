@@ -11,6 +11,8 @@ public class ScreenFadeBehaviour : MonoBehaviour {
 
     public Animator textAnimator;
 
+    private InteractionBehaviour interaction;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -21,7 +23,8 @@ public class ScreenFadeBehaviour : MonoBehaviour {
 	
 	}
 
-    public void Initialize() {
+    public void Initialize(InteractionBehaviour inter) {
+        interaction = inter;
         animator.SetTrigger("Fade to black");
     }
 
@@ -31,5 +34,9 @@ public class ScreenFadeBehaviour : MonoBehaviour {
 
     public void StartText() {
         textAnimator.SetTrigger("Animate");
+    }
+
+    public void ToggleObjects() {
+        interaction.ToggleObjects();
     }
 }

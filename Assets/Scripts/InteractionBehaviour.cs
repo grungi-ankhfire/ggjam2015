@@ -11,6 +11,18 @@ public class InteractionBehaviour : MonoBehaviour {
     public string interactionMessage;
     public Text interactionText;
 
+    public GameObject[] toActivate;
+    public GameObject[] toDeactivate;
+
+    public void ToggleObjects () {
+        foreach(GameObject obj in toActivate) {
+            obj.SetActive(true);
+        }
+        foreach(GameObject obj in toDeactivate) {
+            obj.SetActive(false);
+        }
+    }
+
 	// Use this for initialization
 	void Start () {
 	   keyboardManager = Camera.main.GetComponent<KeyboardManager>();
@@ -37,7 +49,7 @@ public class InteractionBehaviour : MonoBehaviour {
         if (other.gameObject.tag == "Player") {
             if ((keyboardManager.transitionTimer == 0f) && (Input.GetKeyUp("space") || Input.GetKeyDown("space"))) {
                 Debug.Log("Initializing fading");
-                screenFade.Initialize();
+                screenFade.Initialize(this);
 				if(GetComponent<AudioSource>().isPlaying)
 				{
 					GetComponent<AudioSource>().Stop();
