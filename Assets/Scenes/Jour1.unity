@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: Let's start the day.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1326671865}
@@ -628,7 +628,7 @@ GameObject:
   - 114: {fileID: 440578053}
   - 82: {fileID: 440578052}
   m_Layer: 0
-  m_Name: Active zone
+  m_Name: Tcook
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -718,7 +718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 2...
+  interactionMessage: Mmmh.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 2051010094}
@@ -4088,7 +4088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: I take a shower
+  interactionMessage: Aaaahh.
   interactionText: {fileID: 56993033}
   toActivate: []
   toDeactivate: []
@@ -4206,7 +4206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 2...
+  interactionMessage: Not in the mood for news.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 382984033}
@@ -4267,7 +4267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: 
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1172232024}
@@ -5509,7 +5509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Interaction 1...
+  interactionMessage: 
   interactionText: {fileID: 56993033}
   toActivate: []
   toDeactivate: []
