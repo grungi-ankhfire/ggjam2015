@@ -178,6 +178,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 1...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &40092756
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -563,6 +565,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 2...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &440578054
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1160,7 +1164,7 @@ Animator:
   m_GameObject: {fileID: 697382481}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 970a066b28ad82a4c87504bd37a1aa45, type: 2}
+  m_Controller: {fileID: 9100000, guid: a1dab385e1c52634489164a31e866ebb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -3204,6 +3208,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: I take a shower
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &1529416348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3320,6 +3326,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 2...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &1535335568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3377,6 +3385,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 1...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &1540922530
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4315,6 +4325,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 1...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &1844421990
 BoxCollider2D:
   m_ObjectHideFlags: 0

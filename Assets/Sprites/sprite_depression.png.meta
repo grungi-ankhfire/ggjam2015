@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: edd8c9d51d8cd4d49a76ce97c05ec469
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite_depression_0
+    21300002: sprite_depression_1
+    21300004: sprite_depression_2
+    21300006: sprite_depression_3
+    21300008: sprite_depression_4
+    21300010: sprite_depression_5
+    21300012: sprite_depression_6
+    21300014: sprite_depression_7
+    21300016: sprite_depression_8
+    21300018: sprite_depression_9
+    21300020: sprite_depression_10
+    21300022: sprite_depression_11
+    21300024: sprite_depression_12
+    21300026: sprite_depression_13
+    21300028: sprite_depression_14
+    21300030: sprite_depression_15
+    21300032: sprite_depression_16
+    21300034: sprite_depression_17
+    21300036: sprite_depression_18
+    21300038: sprite_depression_19
+    21300040: sprite_depression_20
+    21300042: sprite_depression_21
+    21300044: sprite_depression_22
+    21300046: sprite_depression_23
+    21300048: sprite_depression_24
+    21300050: sprite_depression_25
+    21300052: sprite_depression_26
+    21300054: sprite_depression_27
+    21300056: sprite_depression_28
+    21300058: sprite_depression_29
+    21300060: sprite_depression_30
+    21300062: sprite_depression_31
+    21300064: sprite_depression_32
+    21300066: sprite_depression_33
+    21300068: sprite_depression_34
+    21300070: sprite_depression_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sprite_depression_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_8
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_9
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_11
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_16
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_17
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_21
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_23
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_28
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_29
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_33
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_34
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_depression_35
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

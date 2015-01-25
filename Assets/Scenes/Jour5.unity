@@ -178,6 +178,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 1...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &40092756
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -563,6 +565,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 2...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &440578054
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1143,7 +1147,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 133db95377122cd4ca563d8421f949d4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e59c840139765be4ea9d56bc88755e26, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1202,7 +1206,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: f3085731155080d4f86f7a06629fe7fc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: af1f3153bd0372e4ca658e8beb6b4dc6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1261,7 +1265,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: aa76a1a4e3a23c542b3561804045b8bb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 844a4ca6c8ded064da7a791da81b37c6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1320,9 +1324,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: bd20c2701f9aa32499a3628a9e9aec94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  footstepsBedroom:
+  - {fileID: 649642852}
+  - {fileID: 649642851}
+  - {fileID: 649642850}
+  - {fileID: 649642849}
+  footstepsBathroom:
+  - {fileID: 649642860}
+  - {fileID: 649642859}
+  - {fileID: 649642858}
+  - {fileID: 649642857}
+  footstepsLivingroom:
+  - {fileID: 649642848}
+  - {fileID: 649642846}
+  - {fileID: 649642845}
+  - {fileID: 649642844}
+  footstepsKitchen:
+  - {fileID: 649642856}
+  - {fileID: 649642855}
+  - {fileID: 649642854}
+  - {fileID: 649642853}
+  room: bathroom
 --- !u!82 &649642848
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1332,7 +1357,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: d23def49b974df848b9672ecc2e899d0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e86342a7c3832d14fbe7da43c145289f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1391,7 +1416,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 6eb376ad1621b6a44bbc988ca19f8b1c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e04878b8e478cbc42a7545172e9d5822, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1450,7 +1475,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 77767ab50195f874cb10249a6fb64247, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ecff85615d2338f459b47597392f26d7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1509,7 +1534,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 759bceb601fa7c44392cdee0766acf94, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 476acc3d6ce984a4bbca7773c8c4c5ae, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1568,7 +1593,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: ddda2ca6eca769045a340b3a128546ff, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 05b6a57e9182c3f41a228091654dc0b2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1627,7 +1652,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 4dc78154cb8d76143ab5482f8c0214fc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9054cdb9b1d76c34db362bb483189ee8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1686,7 +1711,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 64a7c095e9531494ebeee8d1d17ce7a6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 08378cd9d8a543f46b70b49f1714bbe2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1745,7 +1770,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: b375e41f524569c4bbc03f22c510b39f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fa9e6998ace1fe84c8b6d624bc10d478, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1804,7 +1829,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: c57163592f4d31441ae73549eb9d5389, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6d0ac0ad03950214692402a3a28b7013, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1863,7 +1888,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: ae03ffdb6a2775e4c838cb7628a309b9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 06bca29d21a2eb04ebb1c92fe872205f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1922,7 +1947,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: ceeed4f25d3a1a349ba5d0b8fa23769f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 03cf8b04bb9f97147a60c3fc56608262, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1981,7 +2006,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 95afc9001b138884aa9a1bd057a28761, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ee513d768b8bc13429a88722e6c0a03c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2040,7 +2065,7 @@ AudioSource:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 4fee9bbe4c1b2be45bdc8e0af5ab78b9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 614b2732d0eeed646a345d011f7165bf, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2128,7 +2153,7 @@ Animator:
   m_GameObject: {fileID: 649642842}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 970a066b28ad82a4c87504bd37a1aa45, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9c5c637581da5224ba74329eaff91685, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -2790,6 +2815,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 9552058, guid: 43e12b0d8977b6f48bc1f01fc4e6344c, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9c5c637581da5224ba74329eaff91685, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43e12b0d8977b6f48bc1f01fc4e6344c, type: 2}
   m_RootGameObject: {fileID: 649642842}
@@ -3124,6 +3153,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: I take a shower
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &1529416348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3240,6 +3271,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 2...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &1535335568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3297,6 +3330,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 1...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &1540922530
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4235,6 +4270,8 @@ MonoBehaviour:
   screenFade: {fileID: 623082282}
   interactionMessage: Interaction 1...
   interactionText: {fileID: 56993033}
+  toActivate: []
+  toDeactivate: []
 --- !u!61 &1844421990
 BoxCollider2D:
   m_ObjectHideFlags: 0

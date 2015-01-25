@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: efeffcd4d6160664c8cb4f21d877b8fc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite-colere_0
+    21300002: sprite-colere_1
+    21300004: sprite-colere_2
+    21300006: sprite-colere_3
+    21300008: sprite-colere_4
+    21300010: sprite-colere_5
+    21300012: sprite-colere_6
+    21300014: sprite-colere_7
+    21300016: sprite-colere_8
+    21300018: sprite-colere_9
+    21300020: sprite-colere_10
+    21300022: sprite-colere_11
+    21300024: sprite-colere_12
+    21300026: sprite-colere_13
+    21300028: sprite-colere_14
+    21300030: sprite-colere_15
+    21300032: sprite-colere_16
+    21300034: sprite-colere_17
+    21300036: sprite-colere_18
+    21300038: sprite-colere_19
+    21300040: sprite-colere_20
+    21300042: sprite-colere_21
+    21300044: sprite-colere_22
+    21300046: sprite-colere_23
+    21300048: sprite-colere_24
+    21300050: sprite-colere_25
+    21300052: sprite-colere_26
+    21300054: sprite-colere_27
+    21300056: sprite-colere_28
+    21300058: sprite-colere_29
+    21300060: sprite-colere_30
+    21300062: sprite-colere_31
+    21300064: sprite-colere_32
+    21300066: sprite-colere_33
+    21300068: sprite-colere_34
+    21300070: sprite-colere_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sprite-colere_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3230
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_8
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_9
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_11
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2584
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_16
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_17
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1938
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_21
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_23
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1292
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_28
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_29
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 646
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_33
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_34
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite-colere_35
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 500
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
