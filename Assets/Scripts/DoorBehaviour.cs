@@ -73,12 +73,14 @@ public class DoorBehaviour : MonoBehaviour {
         if (other.gameObject.tag == "Player") {
             player = other;
             activable = true;
+            other.gameObject.GetComponent<PlayerCharacterBehaviour>().DisplayInteractionMark(true);
         }     
     }
 
     void OnTriggerExit2D(Collider2D other) {
         if (other.gameObject.tag == "Player") {
             activable = false;
+            other.gameObject.GetComponent<PlayerCharacterBehaviour>().DisplayInteractionMark(false);
         }
     }
 }
