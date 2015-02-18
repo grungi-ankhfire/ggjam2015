@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: Not sur if I would sleep with the light again.
+  interactionMessage: Not sure if I would sleep with the light on again.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 899489404}
@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: It tooks the knife.
+  interactionMessage: It took the knife.
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 1048492635}
@@ -850,7 +850,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 451124824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.25, y: 0, z: 0}
+  m_LocalPosition: {x: 10.0200005, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1646296144}
@@ -5893,7 +5893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: If only someone had bean there.
+  interactionMessage: If only someone had been there.
   interactionText: {fileID: 56993033}
   toActivate: []
   toDeactivate:
@@ -6478,6 +6478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ad74c7d245d484d834eb8eecdb48c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastDay: 0
+  lastMusic: {fileID: 0}
 --- !u!82 &1695774816
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6849,7 +6851,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1844421986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.03999996, y: 0, z: 0}
+  m_LocalPosition: {x: 5.55000019, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1646296144}
@@ -6926,7 +6928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenFade: {fileID: 623082282}
-  interactionMessage: If it was not for you.
+  interactionMessage: If it was not for you...
   interactionText: {fileID: 56993033}
   toActivate:
   - {fileID: 148892152}

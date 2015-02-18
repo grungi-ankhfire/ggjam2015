@@ -48,9 +48,9 @@ public class KeyboardManager : MonoBehaviour {
                 }
             } else {
                 if(Input.GetKey(KeyCode.RightArrow)) {
-                    shadow.movementSpeed = movementSpeed*2f;
+                    shadow.movementSpeed = movementSpeed*1.6f;
                 } else if(Input.GetKey(KeyCode.LeftArrow)) {
-                    shadow.movementSpeed = movementSpeed*2f;
+                    shadow.movementSpeed = movementSpeed*1.6f;
                 } else {
                     shadow.movementSpeed = 0f;
                 }
