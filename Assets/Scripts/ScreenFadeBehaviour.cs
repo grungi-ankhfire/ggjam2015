@@ -34,6 +34,7 @@ public class ScreenFadeBehaviour : MonoBehaviour {
 
     public void StartText() {
         textAnimator.SetTrigger("Animate");
+        ToggleObjects();
     }
 
     public void ToggleObjects() {

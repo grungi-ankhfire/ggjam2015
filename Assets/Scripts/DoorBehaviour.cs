@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using InControl;
 
 public class DoorBehaviour : MonoBehaviour {
 
@@ -43,7 +44,7 @@ public class DoorBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Unlock ();
-        if(activable && Input.GetKeyDown("space")) 
+        if(activable && InputManager.ActiveDevice.Action1.WasPressed) 
 		{
 			if (Unlocked)
 			{

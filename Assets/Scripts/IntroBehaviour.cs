@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using InControl;
 
 public class IntroBehaviour : MonoBehaviour {
 
@@ -16,7 +17,7 @@ public class IntroBehaviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    if (Input.GetKeyUp("space") && !done) {
+	    if (InputManager.ActiveDevice.Action1.WasPressed && !done) {
             done = true;
             textAnimator.SetTrigger("Fade");
             cameraAnimator.SetTrigger("Animate");

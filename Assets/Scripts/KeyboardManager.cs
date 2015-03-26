@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using InControl;
 
 public class KeyboardManager : MonoBehaviour {
 
@@ -28,9 +29,9 @@ public class KeyboardManager : MonoBehaviour {
                 transitionTimer = 0f;
             }
         } else {
-            if(Input.GetKey(KeyCode.RightArrow)) {
+            if(InputManager.ActiveDevice.Direction.Right.IsPressed) {
                 character.movementSpeed = movementSpeed;
-            } else if(Input.GetKey(KeyCode.LeftArrow)) {
+            } else if(InputManager.ActiveDevice.Direction.Left.IsPressed) {
                 character.movementSpeed = -movementSpeed;
             } else {
                 character.movementSpeed = 0f;
@@ -47,9 +48,9 @@ public class KeyboardManager : MonoBehaviour {
                     transitionTimer = 0f;
                 }
             } else {
-                if(Input.GetKey(KeyCode.RightArrow)) {
+                if(InputManager.ActiveDevice.Direction.Right.IsPressed) {
                     shadow.movementSpeed = movementSpeed*1.6f;
-                } else if(Input.GetKey(KeyCode.LeftArrow)) {
+                } else if(InputManager.ActiveDevice.Direction.Left.IsPressed) {
                     shadow.movementSpeed = movementSpeed*1.6f;
                 } else {
                     shadow.movementSpeed = 0f;

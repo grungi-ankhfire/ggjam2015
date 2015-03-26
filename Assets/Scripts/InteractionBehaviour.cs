@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using InControl;
 
 public class InteractionBehaviour : MonoBehaviour {
 
@@ -47,7 +48,7 @@ public class InteractionBehaviour : MonoBehaviour {
 
     void OnTriggerStay2D(Collider2D other) {
 				if (other.gameObject.tag == "Player") {
-						if ((keyboardManager.transitionTimer == 0f) && (Input.GetKeyUp ("space") || Input.GetKeyDown ("space"))) {
+						if ((keyboardManager.transitionTimer == 0f) && (InputManager.ActiveDevice.Action1.WasPressed)) {
 								if (other.gameObject.tag == "Player") {
 										other.gameObject.GetComponent<PlayerCharacterBehaviour> ().DisplayInteractionMark (false);
 										screenFade.Initialize (this);
